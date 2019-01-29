@@ -4006,7 +4006,6 @@ template {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  transition: all .3s linear;
 }
 
 .screen-reader {
@@ -4128,6 +4127,7 @@ template {
 
 .header__nav-li .link:hover {
   color: #fce38a;
+  transition: all .3s ease-in-out;
 }
 
 .active {
@@ -4190,7 +4190,7 @@ template {
 }
 
 .learn__more:hover {
-  transition: all .2s linear;
+  transition: all .3s ease-in-out;
   background: rgba(255, 255, 255, 0.267);
 }
 
@@ -4262,6 +4262,7 @@ template {
   display: flex;
   margin-bottom: 30px;
   position: relative;
+  transition: all .3s ease-in-out;
 }
 
 .person__article_imgwrapper:after {
@@ -4276,7 +4277,6 @@ template {
 
 .person__article_imgwrapper:hover,
 .person__article_imgwrapper:focus {
-  transition: all .3s ease-in-out;
   -webkit-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
   box-shadow: 10px 10px 2px 2px #95e1d3;
@@ -4324,6 +4324,7 @@ template {
   z-index: 2;
   visibility: hidden;
   opacity: 0;
+  transition: all .3s ease-in-out;
 }
 
 .social__center {
@@ -4340,6 +4341,7 @@ template {
 .icon__social {
   padding: 10px;
   background: #fce38a;
+  transition: all .3s ease-in-out;
   fill: #f38181;
   width: 100%;
   height: auto;
@@ -4354,7 +4356,8 @@ template {
 }
 
 .icon__social:hover {
-  background-color: #b3ceaccb;
+  background-color: rgba(243, 129, 129, 0.37);
+  border-radius: 5px;
   fill: white;
   width: 66px;
   height: 66px;
